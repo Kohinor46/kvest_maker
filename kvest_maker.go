@@ -106,7 +106,7 @@ func main() {
 	if err != nil {
 		log.Printf("Unmarshal: %v", err)
 	}
-	currentTime = time.Now().Format("01-02-2006"
+	currentTime = time.Now().Format("01-02-2006")
 	//настраиваем бота
 	b, err = tb.NewBot(tb.Settings{
 		Token:  config.Telegram_token,
