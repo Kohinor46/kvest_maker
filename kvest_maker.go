@@ -1046,6 +1046,7 @@ func write_location() {
 	}
 }
 
+//Записывает время начала
 func write_begin_time() {
 	//преобразуем
 	var t Time
