@@ -1,0 +1,44 @@
+Path_to_files: ./
+Users_limit: 30
+Telegram_token: 
+Welcome: "HI"
+Will_play_question: "Will you play?"
+Rules: "RULES"
+Help_cost: 10
+Admins_ids:
+- 1
+Teams:
+- Chat_id: ${id}
+  Name: ${name}
+  URL: ${url}
+- Chat_id: ${id}
+  Name: ${name}
+  URL: ${url}
+- Chat_id: ${id}
+  Name: ${name}
+  URL: ${url}
+Final_location:
+  Is_it_clear: true
+  Queston: "Final question"
+  Answer: 
+  Help: "HELP"
+  Name: "Name"
+Locations:
+	First_location:
+  		Is_it_clear: true
+  		Queston: "First question"
+  		Answer: "Answer"
+  		Help: "HELP"
+  		Name: "Name"
+	Second_location:
+  		Is_it_clear: true
+  		Queston: "Second question"
+  		Answer: "Answer"
+  		Help: "HELP"
+  		Name: "Name"
+	Third_location:
+  		Is_it_clear: true
+  		Queston: "Third question"
+  		Answer: "Answer"
+  		Help: "HELP"
+  		Name: "Name"
